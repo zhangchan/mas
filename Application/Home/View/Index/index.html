@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>首页</title> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <!-- Bootstrap --> 
+  <link href="__STATIC__/lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" /> 
+  <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--> 
+  <link href="__STATIC__/css/common.css" rel="stylesheet" /> 
+  <link href="__STATIC__/css/index.css" rel="stylesheet" /> 
+ </head> 
+ <body> 
+
+  
+  <!-- 头部 head --> 
+  <include file="Public/header"/>
+
+  <!-- 内容区域 content --> 
+  <div class="content"> 
+   <div class="container-fluid"> 
+    <div class="row"> 
+     <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel" style="background: gray;"> 
+      <!-- Wrapper for slides --> 
+      <div class="carousel-inner" role="listbox"> 
+       <div class="item active"> 
+        <img src="__STATIC__/images/firstCarsoul/first_1.png" alt="..." /> 
+       </div> 
+       <div class="item"> 
+        <img src="__STATIC__/images/firstCarsoul/first_2.png" alt="..." /> 
+       </div> 
+       <div class="item"> 
+        <img src="__STATIC__/images/firstCarsoul/first_3.png" alt="..." /> 
+       </div> 
+      </div> 
+      <div class="shade"> 
+       <div> 
+        <img id="s-img" class="shadeimg" src="__STATIC__/images/shade.png"/> 
+       </div> 
+       <!-- 从公司简介处 分左右两块 --> 
+       <div class="s-l"></div> 
+       <div class=""></div> 
+      </div> 
+      <img src="__STATIC__/images/logo_text.png" class="logo_text" id="logoText" /> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--foot 底部--> 
+  <include file="Public/footer"/>
+ </body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script> 
+<script src="__STATIC__/js/base.js"></script> 
+<script src="__STATIC__/js/index.js"></script>  

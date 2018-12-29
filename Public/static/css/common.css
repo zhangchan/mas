@@ -1,0 +1,79 @@
+/* base css */
+html,body{height:100%;overflow:hidden;}
+a{text-decoration:none;color:#8a8787;}
+a:hover{text-decoration:none;color:#8a8787;}
+i{text-decoration:none;font-style:normal;}
+:root{--height:5rem;--color:#f08200;--dent:1rem;--color-basis:#d44545;--bgcolor-basis:#f2f2f2;}
+@media (min-width:1600px){
+    .container{width:1400px;}
+}
+
+/* head */
+.head{padding:13px 0px;background:#ffffff;position:relative;width:100%;top:0;}
+.head .container{line-height:50px;}
+.head .nav>li>a{   /*padding: 6px 24px;*/
+
+    /*padding: 6px 17%;*/
+display:inline-block;    /*width: 157%;*/font-size:12px;text-align:center;}
+.head .nav>li{width:23.4%;}
+.head .nav>li>a{display:inline-block;width:100%;font-weight:100;text-align:center;z-index:6;}
+.head .nav > li:hover .dropdown-menu{display:block;}
+.head .nav-pills>li.active>a:hover{background-color:var(--color);color:#ffffff;}
+.head .nav-pills{  /*float: right;*/}
+.head .nav>li>a::after{content:"";position:absolute;right:-2px;top:10px;width:2px;height:14px;background-color:#8a8787;}
+.head .nav>li:nth-child(1)>a::before{content:"";position:absolute;left:-5px;top:10px;width:2px;height:14px;background-color:#8a8787;}
+.head .dropdown-menu{top:-2%;height:2000px;min-width:unset;width:100%;background-color:rgba(255,204,68,0.5);z-index:2;padding:40px 0;}
+.head .nav>li>a:hover{background-color:var(--color);}
+.head .nav>li>a.choose{background-color:var(--color);color:#ffffff;}
+.head .nav>li>a:hover:after{content:unset;}
+.head .nav>li>a:hover:before{content:"";position:absolute;left:-2px;top:10px;width:2px;height:14px;background-color:#fff;}
+.head a:hover{color:#fff;}
+.head .dropdown-menu>li>a{color:#fff;}
+.dropdown-menu>li>a:hover{background-color:var(--color);}
+.head .nav-pills>li.active>a{color:var(--color);background-color:#fff;}
+
+/*foot 底部*/
+.foot{position:absolute;bottom:0px;width:100%;padding:6px 0px;background-color:#ffffff;color:#cccccc;z-index:9999;}
+
+/*语言切换 languageToggle*/
+.languageToggle{position:absolute;display:inline-block;right:50px;top:15px;}
+.radio-inline{position:relative;display:inline-block;margin-bottom:0;font-weight:400;font-size:12px;vertical-align:middle;cursor:pointer;line-height:3;    /* padding: 0px 14px; */    /* width: 48%; */
+margin-left:auto;padding-left:0;flex-basis:53%;left:-13%;text-align:center;}
+.langToggle .radio-inline:first-child::after{content:"";right:-2px;top:24%;position:absolute;width:2px;height:14px;background-color:#8a8787;}
+.head .container{position:relative;}
+.langToggle{position:relative;display:inline-block;    /* right: -106px; */    /* top: 2px; */
+display:flex;flex-basis:8.8%;}
+.langToggle input{display:none;}
+.radio-inline+.radio-inline{margin:0px;margin-left:-4px;}
+.langToggle .radio-inline:hover{color:var(--color);}
+
+/*内容区域 content*/
+.content{padding-bottom:34px;height:100%;min-height:500px;background-color:#f4f4f4;}
+.content .container{height:100%;}
+.content .container .row{height:100%;}
+.content label{width:14px;}
+
+/* 资源加载提醒*/
+.loading{position:fixed;top:0px;left:0px;width:100%;height:100%;background:rgba(134,143,160,0.9);}
+.loading .loading-info{width:400px;height:200px;background:#fff;text-align:center;line-height:200px;margin:300px auto;}
+.nav label:hover{cursor:pointer;}
+.content .slideNav a.transA{width:150px;transform:rotate(90deg);transform-origin:0;height:30px;margin-left:15px;text-align:center;}
+.content .slideNav  label.transE{width:150px;}
+.content .slideNav .nav li.transE_L{width:30px;}
+.nav-pills>li>a{border-radius:0px;}
+.dropdown-menu{border-radius:0px;}
+.dropdown-menu>li>a{text-align:center;}
+
+
+.headrow{display: flex;}
+.logocontent{display: inline-block;flex-basis: 69%;}
+.logocontent .logo{padding: 1% 3%;}
+.navcontent{display: inline-block;flex-basis: 39%;}
+.nav.navlist{width: 100%;display: flex;}
+.shadeimg{width: 100%;min-height:645px;}
+
+/*company*/
+.c_col_content{height: 100%;width: 100%; padding: 5% 0;}
+.c_row_content{width:100%;height: 70%;}
+.c_row_content_l{height: 100%;padding-left: 0px;}
+.c_row_content_r{height: 100%;padding-top: 13px;padding-bottom: 13px;}
