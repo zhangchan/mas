@@ -128,12 +128,9 @@
    </div> 
   </div> 
   <!-- 内容区域 content --> 
-  <div class="content"> 
-   <div class="container"> 
-    <div class="row"> 
-     <div class="col-lg-12 col-md-12 " style="height: 100%;width: 100%"> 
-      <div class="setCen"> 
-       <div class="row" style="width:100%;height: 80%;"> 
+  <div class="content "> 
+   <div class="container "> 
+    <div class="row setCen"> 
         <div class="col-lg-2 col-md-2 " style="height: 100%;padding-left: 0;"> 
          <div class="slideNav "> 
           <div class="" style="height:64%; "> 
@@ -574,9 +571,7 @@
           </div> 
          </div> 
         </div> 
-       </div> 
-      </div> 
-     </div> 
+
     </div> 
    </div> 
   </div> 

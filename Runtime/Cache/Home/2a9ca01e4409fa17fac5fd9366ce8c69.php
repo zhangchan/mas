@@ -2,7 +2,7 @@
 <html lang="zh-cn">
  <head> 
   <meta charset="utf-8" /> 
-  <title>设计团队</title> 
+  <title>新闻-详情</title> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
   <!-- Bootstrap --> 
@@ -11,11 +11,9 @@
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]--> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.min.css" /> 
-  <script src="/Public/static/lib/grayscale/grayscale.js"></script> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.min.css" /> 
   <link href="/Public/static/css/common.css" rel="stylesheet" /> 
   <link href="/Public/static/css/profile.css" rel="stylesheet" /> 
-  <link href="/Public/static/css/team.css" rel="stylesheet" /> 
  </head> 
  <body> 
 <!-- 头部 head --> 
@@ -130,106 +128,45 @@
   <!-- 内容区域 content --> 
   <div class="content "> 
    <div class="container "> 
-    <div class="row setCen team"> 
+    <div class="row setCen"> 
 
         <div class="col-lg-1 col-md-1 c_row_content_l" > 
-         <div class="slideNav "> 
-          <ul class="nav  nav-pills" role="tablist"> 
-            <li role="presentation" class="active" style="margin-bottom: 20px;">
-              <a href="designTeam.html">
-                <label>合伙人</label>
-              </a>
-            </li> 
-            <li role="presentation">
-              <a href="designTeam_cooperate.html">
-                <label>团队伙伴</label>
-              </a>
-            </li> 
+         <div class="slideNav"> 
+          <ul class="nav  nav-pills" role="tablist" id="myTab"> 
+           <li role="presentation"><a href="companyprofile.html"><label>公司概况</label></a></li> 
+           <li role="presentation" class="active"><a href="companynews.html"><label>公司新闻</label></a></li> 
+           <li role="presentation"><a href="companyPrize.html"><label>荣获奖项</label></a></li> 
           </ul> 
          </div> 
         </div> 
         <div class="col-lg-11 col-md-11 c_row_content_r"> 
          <!-- Tab panes --> 
-         <div role="tabpanel" class="tab-pane active" id="home" style="height: 100%"> 
-           <div class="row "> 
-            <div class="col-lg-12 col-md-12" id="designPic" style="padding-right: 0px; height: 100%;width: 100%;"> 
-             <div class="designCont" id="designCont" style=""> 
-              <div class="design-col-3"> 
-               <div class="design-row  designItem" style=""> 
-                <a href="designTeamDetail.html"> 
-                 <div class="item-col-1"> 
-                  <img src="/Public/static/images/cooperate/images/cooperate_03.png" /> 
-                 </div> 
-                 <div class="item-col-2 grayColor"> 
-                  <div class="centerContain"> 
-                   <div class="item-text textOpcityItem"> 
-                    <h3> 沈凯 <small> 总经理</small> </h3> 
-                    <p> 台湾注册设计师 </p> 
-                    <p> 毕业于台湾国立成功大学建筑研究所 </p> 
-                   </div> 
-                  </div> 
-                 </div> </a> 
-               </div> 
-               <div class="design-row designItem" style=" "> 
-                <a href="designTeamDetail.html"> 
-                 <div class="item-col-2 blueColor_3"> 
-                  <div class="centerContain"> 
-                   <div class="item-text textOpcityItem"> 
-                    <h3> 江中柱 <small> 设计总监/合伙人</small> </h3> 
-                    <p> 成功大学建筑研究所/硕士 </p> 
-                    <p> 台湾注册建筑师/台北市建筑师公会会员 </p> 
-                   </div> 
-                  </div> 
-                 </div> 
-                 <div class="item-col-1"> 
-                  <img src="/Public/static/images/cooperate/images/cooperate_05.png" /> 
-                 </div> </a> 
-               </div> 
-               <div class="design-row designItem" style=""> 
-                <a href="designTeamDetail.html"> 
-                 <div class="item-col-1"> 
-                  <img src="/Public/static/images/cooperate/images/cooperate_10.png" /> 
-                 </div> 
-                 <div class="blueColor_1"> 
-                  <div class="centerContain"> 
-                   <div class="item-text textOpcityItem"> 
-                    <h3> 沈凯 <small> 总经理</small> </h3> 
-                    <p> 台湾注册设计师 </p> 
-                    <p> 毕业于台湾国立成功大学建筑研究所 </p> 
-                   </div> 
-                  </div> 
-                 </div> </a> 
+         <div role="tabpanel" class="tab-pane active" id="profile" style="height: 100%"> 
+           <div class="" style="width: 100%;height: 100%;"> 
+            <div class="title" style="margin-bottom: 10px;"> 
+             <img src="/Public/static/images/max_event.png" /> 
+            </div> 
+            <!-- 新闻详情--> 
+            <div class="newsDetail"> 
+             <div class="row" style="height: 100%;padding-top: 20px;"> 
+              <div class="col-lg-8  col-md-8" style="height: 100%;"> 
+               <!--<img src="/Public/static/images/newsDetail.png" style="height: 100%;" >--> 
+               <div class="swiper-container CarouselR" id="CarouselR"> 
+                <div class="swiper-wrapper"> 
+                 <div class="swiper-slide" style="background: url(/Public/static/images/newsDetail.png) no-repeat ;background-size:100% 100%;"></div> 
+                 <div class="swiper-slide" style="background: url(/Public/static/images/firstCarsoul/first_2.png) no-repeat ;background-size:100% 100%;"></div> 
+                 <div class="swiper-slide" style="background: url(/Public/static/images/firstCarsoul/first_3.png) no-repeat ;background-size:100% 100%;"></div> 
+                </div> 
                </div> 
               </div> 
-              <div class="design-col-1 designItem" style=""> 
-               <a href="designTeamDetail.html"> 
-                <div class="item-row-1"> 
-                 <img src="/Public/static/images/cooperate/images/cooperate_13.png" /> 
-                </div> 
-                <div class="item-row-2 blueColor_4" style=" margin-top: 2%;"> 
-                 <div class="centerContain"> 
-                  <div class="item-row-text textOpcityItem"> 
-                   <h3> 江中柱 <small> 设计总监/合伙人</small> </h3> 
-                   <p> 成功大学建筑研究所/硕士 </p> 
-                   <p> 台湾注册建筑师/台北市建筑师公会会员 </p> 
-                  </div> 
-                 </div> 
-                </div> </a> 
-              </div> 
-              <div class="design-col-1 designItem" style=""> 
-               <a href="designTeamDetail.html"> 
-                <div class="item-row-2 blueColor_2" style="margin-bottom: 2%"> 
-                 <div class="centerContain"> 
-                  <div class="item-row-text textOpcityItem"> 
-                   <h3> 沈凯 <small> 总经理</small> </h3> 
-                   <p> 台湾注册设计师 </p> 
-                   <p> 毕业于台湾国立成功大学建筑研究所 </p> 
-                  </div> 
-                 </div> 
-                </div> 
-                <div class="item-row-1"> 
-                 <img src="/Public/static/images/cooperate/images/cooperate_15.png" /> 
-                </div> </a> 
+              <div class="col-lg-4  col-md-4"> 
+               <div class="title" style="font-size: 20px;"> 
+                <i>正青春</i> | MAS新老员工户外3日拓展 
+               </div> 
+               <small style="line-height: 30px;">2018-5-30 16:20 </small> 
+               <div class="description">
+                 新形象，新生活，新起点！ 
+               </div> 
               </div> 
              </div> 
             </div> 
@@ -241,7 +178,7 @@
     </div> 
    </div> 
   </div> 
-  <!-- foot 底部 --> 
+  <!--foot 底部--> 
   <div class="foot"> 
  <div class="container-fluid"> 
   <div class="row"> 
@@ -252,11 +189,11 @@
    </div> 
   </div> 
  </div> 
-</div>  
+</div>    
  </body>
 </html>
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.js"></script> 
-<script src="/Public/static/js/base.js"></script> 
-<script src="/Public/static/js/designTeam.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.js"></script>
+<script src="/Public/static/js/base.js"></script>
+<script src="/Public/static/js/newsDetail.js"></script>

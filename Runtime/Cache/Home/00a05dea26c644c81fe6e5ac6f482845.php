@@ -128,12 +128,10 @@
    </div> 
   </div> 
   <!-- 内容区域 content --> 
-  <div class="content"> 
-   <div class="container"> 
-    <div class="row"> 
-     <div class="col-lg-12 col-md-12  c_col_content"> 
-      <div class="setCen"> 
-       <div class="row c_row_content"> 
+  <div class="content "> 
+   <div class="container "> 
+    <div class="row setCen team"> 
+
         <div class="col-lg-1 col-md-1 c_row_content_l" > 
          <div class="slideNav "> 
           <ul class="nav  nav-pills" role="tablist"> 
@@ -282,11 +280,8 @@
             </div> 
            </div> 
           </div> 
-
         </div> 
-       </div> 
-      </div> 
-     </div> 
+
     </div> 
    </div> 
   </div> 

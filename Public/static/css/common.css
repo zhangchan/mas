@@ -1,11 +1,11 @@
 /* base css */
-html,body{height:100%;overflow:hidden;}
+html,body{height:100%;overflow:hidden; min-width: 1300px;}
 a{text-decoration:none;color:#8a8787;}
 a:hover{text-decoration:none;color:#8a8787;}
 i{text-decoration:none;font-style:normal;}
 :root{--height:5rem;--color:#f08200;--dent:1rem;--color-basis:#d44545;--bgcolor-basis:#f2f2f2;}
 @media (min-width:1600px){
-    .container{width:1400px;}
+  .container{width:1400px;}
 }
 
 /* head */

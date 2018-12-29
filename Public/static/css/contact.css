@@ -1,128 +1,28 @@
-.contactUsItem{
-    width: 100%;
-    height: 30%;
-    margin-bottom: 5%;
-    padding-left: 50px;
-    position: relative;
-}
-.contactUsItem .addr{
-    width: 30px;
-    height: 100%;
-    padding: 20px 9px;
-    display: inline-block;
-    vertical-align: middle;
-    background-color: #9b9a9b;
-    position: absolute;
-    left: 0px;
-}
-
-.contactUsItem a{
-
-}
-/*.contactUsItem .addr:hover{*/
-    /*background-color: var(--color);*/
-/*}*/
-/*.contactUsItem .addr:hover a{*/
-    /*color: #fff;*/
-/*}*/
-.contactUsInfo{
-    display: inline-block;
-    max-width: 300px;
-    width: 100%;
-    height: 100%;
-    color:#8c8b8b;
-    margin-left: 40px;
-}
-.contactUsItem  label{
-    width: auto;
-}
-
-.email{
-    display: none;
-    position: absolute;
-    width: 400px;
-    height: 380px;
-    left: 50%;
-    margin-left: -200px;
-    top: 50%;
-    margin-top: -200px;
-    background-color: #fff;
-    padding-left: 35px;
-    padding-right: 30px;
-}
+.contactUsItem{width:100%;height:30%;margin-bottom:5%;padding-left:50px;position:relative;}
+.contactUsItem .addr{width:30px;height:100%;padding:20px 9px;display:inline-block;vertical-align:middle;background-color:#9b9a9b;position:absolute;left:0px;}
+.contactUsInfo{display:inline-block;max-width:300px;width:100%;height:100%;color:#8c8b8b;margin-left:40px;}
+.contactUsItem  label{width:auto;}
+.email{display:none;position:absolute;width:400px;height:380px;left:50%;margin-left:-200px;top:50%;margin-top:-200px;background-color:#fff;padding-left:35px;padding-right:30px;}
 
 /* 地图组件 */
-.pop1{
-    top: 313px;
-    left: 665px;
-}
-
-.pop2{
-    top: 330px;
-    left: 701px;
-}
-.pop3{
-    top: 371px;
-    left: 705px;
-}
-.popover {
-    display: inline-block;
-    background-color: transparent;
-    border: unset;
-     border-radius: unset;
-    line-break: auto;
-    box-shadow:unset;
-    -webkit-box-shadow:unset;
-}
-.popover-title {
-    background-color: transparent;
-     border-bottom: unset;
-     border-radius: unset;
-}
-
-
+.pop1{top:313px;left:665px;}
+.pop2{top:330px;left:701px;}
+.pop3{top:371px;left:705px;}
+.popover{display:inline-block;background-color:transparent;border:unset;border-radius:unset;line-break:auto;box-shadow:unset;-webkit-box-shadow:unset;}
+.popover-title{background-color:transparent;border-bottom:unset;border-radius:unset;}
 @media(min-width:970px){
-    .md-image{
-        display: inline-block;
-    }
-    .lg-image{
-        display: none;
-    }
+    .md-image{display:inline-block;}
+    .lg-image{display:none;}
 }
-
 @media(min-width:1200px){
-    .md-image{
-        display: none;
-    }
-    .lg-image{
-        display: inline-block;
-    }
+    .md-image{display:none;}
+    .lg-image{display:inline-block;}
 }
-
-
-
-
-@media(max-width: 970px){
-
-    .md-image{
-        display: none;
-    }
-    .lg-image{
-        display: none;
-    }
-
+@media(max-width:970px){
+    .md-image{display:none;}
+    .lg-image{display:none;}
 }
-
-.contactUsInfo p{
-    margin: 0;
-}
-.addr a{
-    color: #fff;
-}
-
-.contactUsItem.active .addr{
-    background-color: var(--color);
-}
-.contactUsItem.active .emailE{
-    color: var(--color);
-}
+.contactUsInfo p{margin:0;}
+.addr a{color:#fff;}
+.contactUsItem.active .addr{background-color:var(--color);}
+.contactUsItem.active .emailE{color:var(--color);}
