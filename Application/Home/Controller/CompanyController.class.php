@@ -7,9 +7,17 @@ use Think\Controller;
  */
 class CompanyController extends Controller {
 
-	//公司简介
-    public function index(){
+	//新闻
+    public function news(){
         return $this->display('news');
+    }
+    //奖项
+    public function prize(){
+        return $this->display('prize');
+    }
+    //公司简介
+    public function profile(){
+        return $this->display('profile');
     }
 
     public function getCategory(){

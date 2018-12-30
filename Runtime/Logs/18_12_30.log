@@ -16,3 +16,33 @@ ERR: 非法操作:designteam
 [ 2018-12-30T01:01:45+08:00 ] 127.0.0.1 /home/work/WorkDetail.html
 ERR: 非法操作:workdetail
 
+[ 2018-12-30T14:05:13+08:00 ] 127.0.0.1 /home/team/designTeam_cooperate.html
+ERR: 非法操作:designteam_cooperate
+
+[ 2018-12-30T14:17:44+08:00 ] 127.0.0.1 /home/work/WorkDetail.html
+ERR: 非法操作:workdetail
+
+[ 2018-12-30T14:24:49+08:00 ] 127.0.0.1 /home/team/designTeam.html
+ERR: 非法操作:designteam
+
+[ 2018-12-30T14:44:35+08:00 ] 127.0.0.1 /home/company/companynews.html
+ERR: 非法操作:companynews
+
+[ 2018-12-30T14:44:40+08:00 ] 127.0.0.1 /home/company/js/base.js
+ERR: 非法操作:js
+
+[ 2018-12-30T14:44:41+08:00 ] 127.0.0.1 /home/company/js/companyPrize.js
+ERR: 非法操作:js
+
+[ 2018-12-30T14:44:41+08:00 ] 127.0.0.1 /home/company/lib/swiper4.4.2/js/swiper.js
+ERR: 非法操作:lib
+
+[ 2018-12-30T14:44:41+08:00 ] 127.0.0.1 /home/company/js/base.js
+ERR: 非法操作:js
+
+[ 2018-12-30T14:44:41+08:00 ] 127.0.0.1 /home/company/js/companyPrize.js
+ERR: 非法操作:js
+
+[ 2018-12-30T14:45:37+08:00 ] 127.0.0.1 /home/team/designTeam_cooperate.html
+ERR: 非法操作:designteam_cooperate
+

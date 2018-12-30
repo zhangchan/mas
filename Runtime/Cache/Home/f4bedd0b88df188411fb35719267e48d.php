@@ -11,11 +11,13 @@
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]--> 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.min.css" /> 
+  <link rel="stylesheet" href="/Public/static/lib/swiper4.4.2/css/swiper.css" /> 
   <link href="/Public/static/css/common.css" rel="stylesheet" /> 
-  <link href="/Public/static/css/profile.css" rel="stylesheet" />
+  <link href="/Public/static/css/profile.css" rel="stylesheet" /> 
+  <link href="/Public/static/css/news.css" rel="stylesheet" /> 
  </head> 
- <body> 
+ <body > 
+
   <!-- 头部 head --> 
    <div class="head"> 
    <div class="container-fluid"> 
@@ -32,22 +34,22 @@
      <div class="navcontent"> 
       <ul class="nav nav-pills navlist"> 
         <li role="presentation"> 
-          <a href="/home/company/index" data-toggle="dropdown"> 
+          <a href="/home/company/profile" data-toggle="dropdown"> 
             <label>公司简介</label> 
           </a> 
           <ul class="dropdown-menu "> 
             <li role="presentation"> 
-              <a href="/home/company/index"> 
+              <a href="/home/company/profile"> 
                 <label>公司概况</label> 
               </a> 
             </li> 
             <li role="presentation"> 
-              <a href="/home/company/index"> 
+              <a href="/home/company/news"> 
                 <label>公司新闻</label> 
               </a> 
             </li> 
             <li role="presentation"> 
-              <a href="/home/company/index"> 
+              <a href="/home/company/prize"> 
                 <label>荣获奖项</label> 
               </a> 
             </li> 
@@ -126,70 +128,24 @@
    </div> 
   </div> 
   <!-- 内容区域 content --> 
-  <div class="content "> 
-   <div class="container "> 
-    <div class="row setCen"> 
-<!--      <div class="col-lg-12 col-md-12  "> 
-      <div class="setCen"> 
-       <div class="row c_row_content"> -->
+  <div class="content"> 
+ <div class="row"  style="      max-width: 1200px;
+    margin: 0 auto;
+    position: relative;">
 
-        <div class="col-lg-1 col-md-1 c_row_content_l" > 
-         <div class="slideNav"> 
+        <div class="c_row_content_l" > 
+         <div class="slideNav1"> 
           <ul class="nav  nav-pills" role="tablist" id="myTab"> 
-           <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><label>公司概况</label></a></li> 
-           <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-toggle="tab"><label>公司新闻</label></a></li> 
-           <li role="presentation"><a href="#prize" aria-controls="prize" role="tab" data-toggle="tab"><label>荣获奖项</label></a></li> 
+           <li role="presentation" ><a href="companyprofile.html"><label>公司概况</label></a></li> 
+           <li role="presentation" class="active"><a href="companynews.html"><label>公司新闻</label></a></li> 
+           <li role="presentation"><a href="companyPrize.html"><label>荣获奖项</label></a></li> 
           </ul> 
          </div> 
         </div> 
-        <div class="col-lg-11 col-md-11 c_row_content_r"> 
+        <div class="c_row_content_r"> 
          <!-- Tab panes --> 
-          <div class="tab-content  companyProfile" style="height: 100%"> 
-            <div role="tabpanel" class="tab-pane active" id="profile" style="height: 100%">
-             <div class="row "> 
-              <div class="col-lg-4 col-md-4" id="Profile_desc_P" style="padding-right: 0px;padding-left: 0px; height: 100%;"> 
-               <div class="Profile-desc" id="Profile_desc"> 
-                <div class="swiper-container" id="profiel_text"> 
-                 <div class="swiper-wrapper"> 
-                  <div class="swiper-slide"> 
-                   <div class="officeInfo" id="officeInfo">
-                     MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 MAS inc. 是一个综合性专业设计集团，含括奇显建筑设计咨询有限公司、奇皇室内设计有限公司、奇显联合建筑师事务所（台北）。 
-                   </div> 
-                  </div> 
-                 </div> 
-                 <!-- Add Scroll Bar --> 
-                 <div class="swiper-scrollbar"></div> 
-                </div> 
-               </div> 
-               <div class="Profile-li-pic"> 
-                <div class="swiper-container" id="profile_carousel"> 
-                 <div class="swiper-wrapper"> 
-                  <div class="swiper-slide backgroundCss" style="background-image: url(/Public/static/images/firstCarsoul/first_1.png) "></div> 
-                  <div class="swiper-slide backgroundCss" style="background-image: url(/Public/static/images/firstCarsoul/first_2.png)"></div> 
-                  <div class="swiper-slide backgroundCss" style="background-image: url(/Public/static/images/firstCarsoul/first_3.png)"></div> 
-                  <div class="swiper-slide backgroundCss" style="background-image: url(/Public/static/images/firstCarsoul/first_3.png)"></div> 
-                 </div>
-                 <!-- Add Arrows --> 
-                  <div class="swiper-button-next swiper-button-white"></div> 
-                  <div class="swiper-button-prev swiper-button-white"></div>  
-                </div> 
-               </div> 
-              </div> 
-              <div class="col-lg-8 col-md-8" style="height: 100%;padding-left: 10px;padding-right: 0px;"> 
-               <div class="swiper-container CarouselR" id="CarouselR"> 
-                <div class="swiper-wrapper"> 
-                 <div class="swiper-slide" style="background: url(/Public/static/images/firstCarsoul/first_1.png) no-repeat ;background-size:100% 100%;"></div> 
-                 <div class="swiper-slide" style="background: url(/Public/static/images/firstCarsoul/first_2.png) no-repeat ;background-size:100% 100%;"></div> 
-                 <div class="swiper-slide" style="background: url(/Public/static/images/firstCarsoul/first_3.png) no-repeat ;background-size:100% 100%;"></div> 
-                </div> 
-               </div> 
-               <p style="text-align: right;padding-top: 10px;">PLANNING 丨 ARCHITECTURE 丨 INTERIOR </p> 
-              </div> 
-             </div> 
-            </div> 
-            <div role="tabpanel" class="tab-pane" id="news"> 
-             <div class="box"> 
-              <div class="title"> 
+      
+              <div class="title" style="margin-bottom: 10px;"> 
                <img src="/Public/static/images/max_event.png" /> 
               </div> 
               <div class="newsCont"> 
@@ -277,162 +233,17 @@
                    </div> 
                   </div> 
                </div> 
-               <div class="item"> 
-                  <div class="newsContPic"> 
-                   <img src="/Public/static/images/news/images/news.png" /> 
-                  </div> 
-                  <div class="newsContDesc"> 
-                   <div class="newsTitle"> 
-                    <i>正青春</i> MAS新老员工户外3日拓展 
-                   </div> 
-                   <small>2018-5-30 16:20 </small> 
-                   <div class="description">
-                     新形象，新生活，新起点！ 
-                   </div> 
-                  </div> 
-               </div> 
-               <div class="item"> 
-                  <div class="newsContPic"> 
-                   <img src="/Public/static/images/news/images/news.png" /> 
-                  </div> 
-                  <div class="newsContDesc"> 
-                   <div class="newsTitle"> 
-                    <i>正青春</i> MAS新老员工户外3日拓展 
-                   </div> 
-                   <small>2018-5-30 16:20 </small> 
-                   <div class="description">
-                     新形象，新生活，新起点！ 
-                   </div> 
-                  </div> 
-               </div> 
+            
               </div> 
              </div> 
-            </div>
-            <div role="tabpanel" class="tab-pane " id="prize"> 
-             <div class="" style="width: 100%;height: 100%;"> 
-              <div class="row"> 
-               <div class="col-lg-4  col-md-4" style="height: 100%;"> 
-                <div class="dateAxisContainer"> 
-                 <div class="dateAxis"> 
-                  <div class="itemcontent"> 
-                   <div class="item item1"> 
-                    <!--时间轴--> 
-                    <p class="time">2017</p> 
-                    <!-- 文字内容区 --> 
-                    <div class="contentItem" style=" cursor:pointer "> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                    <div class="contentItem"> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                    <div class="contentItem"> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                   </div> 
-                   <div class="item"> 
-                    <!--时间轴--> 
-                    <p class="time">2016</p> 
-                    <!-- 文字内容区 --> 
-                    <div class="contentItem" id=""> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                    <div class="contentItem"> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                    <div class="contentItem"> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                   </div> 
-                   <div class="item"> 
-                    <!--时间轴--> 
-                    <p class="time">2013</p> 
-                    <!-- 文字内容区 --> 
-                    <div class="contentItem" id=""> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                    <div class="contentItem"> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                    <div class="contentItem"> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                   </div> 
-                   <div class="item"> 
-                    <!--时间轴--> 
-                    <p class="time">2013</p> 
-                    <!-- 文字内容区 --> 
-                    <div class="contentItem" id=""> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                    <div class="contentItem"> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                    <div class="contentItem"> 
-                     <p class="contentTitle">华邦第一银行（成都） </p> 
-                     <p class="contentText"> 获新加坡2017设计大家 </p> 
-                    </div> 
-                   </div> 
-                  </div> 
-                 </div> 
-                </div> 
-               </div> 
-               <div class="col-lg-8  col-md-8" style="height: 100%;"> 
-                <div class="row" style="height: 100%;" id="swiper1"> 
-                 <div class="col-lg-3  col-md-3" style="height: 100%;padding-right: 0"> 
-                  <div class="swiper-container gallery-thumbs" style="height: 100%;" id="gallery-thumbs"> 
-                   <div class="swiper-wrapper"> 
-                    <div class="swiper-slide backgroundCss" style="background-image:url(/Public/static/images/prize/image/prize_03.png)"></div> 
-                    <div class="swiper-slide backgroundCss" style="background-image:url(/Public/static/images/prize/image/prize_06.png)"></div> 
-                    <div class="swiper-slide backgroundCss" style="background-image:url(/Public/static/images/prize/image/prize_10.png)"></div> 
-                    <div class="swiper-slide backgroundCss" style="background-image:url(/Public/static/images/prize/image/prize_13.png)"></div> 
-                    <div class="swiper-slide backgroundCss" style="background-image:url(/Public/static/images/prize/image/prize_15.png)"></div> 
-                   </div> 
-                   <!-- Add Arrows --> 
-                   <div class="swiper-button-next swiper-button-white"></div> 
-                   <div class="swiper-button-prev swiper-button-white"></div>
-                  </div> 
-                 </div> 
-                 <div class="col-lg-9  col-md-9" style="height: 100%;margin-left: -5px;"> 
-                  <div class="swiper-container gallery-top" style="height: 100%;" id="gallery-top"> 
-                   <div class="swiper-wrapper"> 
-                    <div class="swiper-slide" style="background-image:url(/Public/static/images/prize/image/prize_03.png)"></div> 
-                    <div class="swiper-slide" style="background-image:url(/Public/static/images/prize/image/prize_06.png)"></div> 
-                    <div class="swiper-slide" style="background-image:url(/Public/static/images/prize/image/prize_10.png)"></div> 
-                    <div class="swiper-slide" style="background-image:url(/Public/static/images/prize/image/prize_13.png)"></div> 
-                    <div class="swiper-slide" style="background-image:url(/Public/static/images/prize/image/prize_15.png)"></div> 
-                   </div> 
-                   <!-- Add Arrows --> 
-                   <!-- <div class="swiper-button-next swiper-button-white"></div>
-                   <div class="swiper-button-prev swiper-button-white"></div> -->
-                  </div> 
-                 </div> 
-                </div> 
-               </div> 
-              </div> 
-             </div> 
-            </div> 
-          </div>
-        </div>
 
-  <!--      </div> 
-      </div> 
-     </div>  -->
-    </div> 
-   </div> 
+</div>
+
+
+
   </div> 
   <!--foot 底部--> 
-  <div class="foot"> 
+ <div class="foot"> 
  <div class="container-fluid"> 
   <div class="row"> 
    <!-- 语言切换 languageToggle --> 
@@ -447,6 +258,6 @@
 </html>
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.js"></script>
+<script src="/Public/static/lib/swiper4.4.2/js/swiper.js"></script> 
 <script src="/Public/static/js/base.js"></script> 
 <script src="/Public/static/js/companynews.js"></script>

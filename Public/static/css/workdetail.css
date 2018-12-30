@@ -1,18 +1,81 @@
-.content{background-color:#fff;}
-.workInfo-1{position:absolute;width:100%;bottom:0px;}
-.Work_title{font-size:18px;margin-bottom:35px;}
-.Work_label{font-weight:600;}
-.program{height:100%;padding-left:15px;}
-.workInfo_2_content{height:80%;}
-#programSwiper .swiper-slide{height:auto;-webkit-box-sizing:border-box;box-sizing:border-box;}
-.workDetail_carsoul{width:100%;height:100%;}
-.swiper-container{width:100%;height:100%;margin-left:auto;margin-right:auto;}
-.gallery-top .swiper-slide,.gallery-thumbs  .swiper-slide{background-size:cover;background-position:center;}
-.gallery-top{height:100%;width:100%;}
-.gallery-thumbs{box-sizing:border-box;padding:10px 0;}
-.gallery-thumbs .swiper-slide{width:100%;    /*height: 25%;*/opacity:0.4;}
-.gallery-thumbs .swiper-slide-thumb-active{opacity:1;}
-.workInfo_2_content p{line-height:30px;}
-#gallery-thumbs .backgroundCss{background-size:auto 100%;background-position:center;background-clip:border-box;}
-.swiper-button-prev{position:absolute;top:7%;left:35px;transform:rotate(90deg);}
-.swiper-button-next{position:absolute;top:93%;left:35px;transform:rotate(90deg);}
+
+.content{
+ background-color: #fff;
+}
+.workInfo-1{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.Work_title{
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+.Work_label{
+    font-weight: 600;
+}
+.program{
+    height: 100%;
+    padding-left: 15px;
+}
+.workInfo_2_content{
+    height: 80%;
+}
+
+#programSwiper .swiper-slide {
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.workDetail_carsoul{
+    width: 100%;
+    height: 100%;
+}
+
+ .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-top .swiper-slide,.gallery-thumbs  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+ .gallery-top {
+    height: 100%;
+    width: 100%;
+}
+ .gallery-thumbs {
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+    width: 100%;
+    /*height: 25%;*/
+    opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+}
+.workInfo_2_content p{
+    line-height: 30px;
+}
+
+#gallery-thumbs .backgroundCss {
+    background-size: auto 100%;
+    background-position: center;
+    background-clip: border-box;
+}
+.swiper-button-prev{
+  position: absolute;
+  top: 7%;
+  left: 35px;
+  transform:rotate(90deg);
+}
+.swiper-button-next{
+  position: absolute;
+  top: 93%;
+  left: 35px;
+  transform:rotate(90deg);
+}

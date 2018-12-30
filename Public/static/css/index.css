@@ -1,25 +1,68 @@
+
 /*内容区域 content*/
-.content .container-fluid{height:100%;}
-.content .container-fluid .row{height:100%;}
-.content .container-fluid .row .carousel{height:100%;}
-.carousel-inner{height:100%;}
-.carousel-inner>.item{height:100%;background-repeat:no-repeat;background-position:100%;}
-.carousel-inner>.item>img{width:100%;height:100%}
+.content .container-fluid{
+    height: 100%;
+}
+.content .container-fluid .row{
+    height: 100%;
+}
+.content .container-fluid .row .carousel{
+    height:100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel-inner>.item {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+.carousel-inner>.item>img {
+    width: 100%;
+      height: 100%
+}
 
 /* 设置轮播的淡入淡出效果*/
-.carousel-fade .carousel-inner  .item{transition-property:opacity;}
-.carousel-fade .carousel-inner  .item,.carousel-fade .carousel-inner  .item.active.left,.carousel-fade .carousel-inner  .item.active.right{opacity:0;}
-.carousel-fade .carousel-inner  .active,.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner  .prev.right{opacity:1;}
-.carousel-fade .carousel-inner .next,.carousel-fade .carousel-inner .prev,.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{left:0;transform:translate3d(0,0,0);}
-.shade{   /* position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0px;
-        left: 0px;
-        background: url(../images/shade.png) no-repeat;
-        background-size: cover;*/
-top:-100%;position:relative;}
+.carousel-fade .carousel-inner  .item{
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner  .item,.carousel-fade .carousel-inner  .item.active.left,
+.carousel-fade .carousel-inner  .item.active.right {
+    opacity: 0;
+}
 
+.carousel-fade .carousel-inner  .active,.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner  .prev.right{
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+.shade{
+   /* position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(../images/shade.png) no-repeat;
+    background-size: cover;*/
+    top: -100%;
+    position: relative;
+
+}
 /* 设置轮播的淡入淡出效果*/
-.carousel-inner .item{position:center;background-size:100% 100%;}
-.logo_text{position:absolute;left:20px;bottom:95px;}
+
+.carousel-inner .item{
+    position: center;
+    background-size: 100% 100%;
+}
+
+.logo_text{
+    position: absolute;
+    left: 20px;
+    bottom: 95px;
+}

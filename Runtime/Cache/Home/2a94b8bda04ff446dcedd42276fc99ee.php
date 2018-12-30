@@ -33,22 +33,22 @@
      <div class="navcontent"> 
       <ul class="nav nav-pills navlist"> 
         <li role="presentation"> 
-          <a href="/home/company/index" data-toggle="dropdown"> 
+          <a href="/home/company/profile" data-toggle="dropdown"> 
             <label>公司简介</label> 
           </a> 
           <ul class="dropdown-menu "> 
             <li role="presentation"> 
-              <a href="/home/company/index"> 
+              <a href="/home/company/profile"> 
                 <label>公司概况</label> 
               </a> 
             </li> 
             <li role="presentation"> 
-              <a href="/home/company/index"> 
+              <a href="/home/company/news"> 
                 <label>公司新闻</label> 
               </a> 
             </li> 
             <li role="presentation"> 
-              <a href="/home/company/index"> 
+              <a href="/home/company/prize"> 
                 <label>荣获奖项</label> 
               </a> 
             </li> 

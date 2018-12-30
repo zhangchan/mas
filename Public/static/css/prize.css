@@ -1,0 +1,12 @@
+.swiper-button-prev{
+  position: absolute;
+  top: 5%;
+  left: 70px;
+  transform:rotate(90deg);
+}
+.swiper-button-next{
+  position: absolute;
+  top: 95%;
+  left: 70px;
+  transform:rotate(90deg);
+}

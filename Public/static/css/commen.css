@@ -51,7 +51,7 @@ display:flex;flex-basis:8.8%;}
 .content{padding-bottom:34px;height:100%;min-height:500px;background-color:#f4f4f4;}
 .content .container{height:100%;}
 .content .container .row{height:100%;}
-.content label{width:14px;font-weight: 100}
+.content label{width:14px;}
 
 /* 资源加载提醒*/
 .loading{position:fixed;top:0px;left:0px;width:100%;height:100%;background:rgba(134,143,160,0.9);}
@@ -77,6 +77,3 @@ display:flex;flex-basis:8.8%;}
 .c_row_content{width:100%;height: 70%;}
 .c_row_content_l{height: 100%;padding-left: 0px;}
 .c_row_content_r{height: 100%;padding-top: 13px;padding-bottom: 13px;}
-.nav-pills>li+li{
-	margin-left: 0
-}
